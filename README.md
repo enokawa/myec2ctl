@@ -18,7 +18,7 @@ export AWS_REGION=ap-northeast-1
 
 ### Run
 ```sh
-$ docker-compose run --rm ec2ctl --pretty
+$ docker-compose run --rm -T ec2ctl --pretty
 {
   "time": "2018-09-07 06:39:02 +0000",
   "severity": "INFO",
@@ -37,7 +37,7 @@ $ docker-compose run --rm ec2ctl --pretty
 
 ### Use aws profile
 ```sh
-$ docker-compose run --rm ec2ctl --pretty --profile myproject
+$ docker-compose run --rm -T ec2ctl --pretty --profile myproject
 ```
 
 ## Inspired by ...
